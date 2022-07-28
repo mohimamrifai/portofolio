@@ -81,6 +81,10 @@ a {
     gap: 7px;
 }
 
+.text-p-summary {
+    text-align: justify;
+}
+
 .platform {
     display: flex;
     gap: 10px;
