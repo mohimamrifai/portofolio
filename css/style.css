@@ -85,6 +85,15 @@ a {
     display: flex;
     gap: 10px;
 }
+.platform a{
+    font-weight: 400;
+}
 .platform > img{
     width: 30px;
+}
+.list_job {
+    margin: 15px 0;
+}
+.list_job li {
+    font-weight: 300;
 }
