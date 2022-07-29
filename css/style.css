@@ -247,7 +247,7 @@ a {
 /* mobile */
 @media screen and (max-width:428px){
     .portofolio-ats {
-        padding: 100px 50px;
+        padding: 100px 25px;
     }
 
     .portofolio-ats .nama {
