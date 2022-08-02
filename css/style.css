@@ -150,18 +150,35 @@ a {
     align-items: center;
 }
 
-.navbar a {
+.tablinks {
+    border: none;
+    background-color: transparent;
     color: white;
-    padding-bottom: 3px;
+    opacity: .9;
+    cursor: pointer;
+    font-weight: 200;
 }
 
-.link-active {
-    font-weight: bold;
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+.tablinks.active {
+    font-weight: 700;
+    opacity: 1;
 }
 
-.link-active:hover {
-    opacity: .7;
-}
+.content-porto-web .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
 
 .box-aboutme {
     display: flex;

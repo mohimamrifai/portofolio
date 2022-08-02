@@ -159,21 +159,44 @@
     </div>
     <div class="portofolio-web non-active animate__animated animate__fadeInLeft" id="portofolio-web">
         <div class="navbar">
-            <a href="" class="link-active">About me</a>
-            <a href="">Skilss</a>
-            <a href="">Project</a>
-            <a href="">Contact</a>
+            <button class="tablinks active" onclick="openTab(event, 'aboutme')" id="defaultOpen">About me</button>
+            <button class="tablinks" onclick="openTab(event, 'skills')">Skilss</button>
+            <button class="tablinks" onclick="openTab(event, 'project')">Project</button>
+            <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
         </div>
-        <div class="box-aboutme">
-            <div class="bagian-satu">
-                <h2>Hi 👋, <br> I'am Imam rifai <br> Front-end developer</h2>
-                <p>I design and develop experiences that make people’s lives simpler through Web and Mobile apps.I work with FIgma , HTML5, CSS3, JavaScript, React, ReactNative and Flutter.</p>
-                <button class="btn-hire">Hire me</button>
-                <button class="btn-project">See my project</button>
+        <div class="content-porto-web">
+            
+            <div id="aboutme" class="tabcontent">
+                <div class="box-aboutme" >
+                    <div class="bagian-satu">
+                        <h2>Hi 👋, <br> I'am Imam rifai <br> Front-end developer</h2>
+                        <p>I design and develop experiences that make people’s lives simpler through Web and Mobile apps.I work with FIgma , HTML5, CSS3, JavaScript, React, ReactNative and Flutter.</p>
+                        <button class="btn-hire">Hire me</button>
+                        <button class="btn-project">See my project</button>
+                    </div>
+                    <div class="gambar">
+                        <img src="img/Group 1.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="gambar">
-                <img src="img/Group 1.png" alt="">
+            <div id="skills" class="tabcontent">
+                <h3>Skills</h3>
+                <p>London is the capital city of England.</p>
             </div>
+            <div id="project" class="tabcontent">
+                <h3>Project</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+            <div id="contact" class="tabcontent">
+                <h3>Contact</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+            <!-- <div class="box-project">
+                <h3>section skilss</h3>
+            </div>
+            <div class="box-contact">
+                <h3>section skilss</h3>
+            </div> -->
         </div>
     </div>
     <script src="js/script.js"></script>
